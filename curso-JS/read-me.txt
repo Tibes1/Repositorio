@@ -1,0 +1,3 @@
+exercicio 1-3 == modulo 5
+
+exercicio 3-5 == modulo 6

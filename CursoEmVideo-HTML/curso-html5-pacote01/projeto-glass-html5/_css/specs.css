@@ -1,0 +1,21 @@
+@charset="UTF-8";
+
+
+section#conteudo{
+	width:1000px;
+	margin:auto;
+}
+iframe#iframe-specs{
+	width:400px;
+	height:300px;
+	border:none;
+	overflow:hidden;
+}
+iframe#iframe-specs::-webkit-scrollbar{
+	display:none;
+}
+
+iframe#iframe-specs body {
+overflow-x: hidden;
+overflow-y: hidden;
+}

@@ -1,0 +1,8 @@
+comandos git 
+
+git init    // inicia a linha do tempo 
+git add     // adiciona ou atualiza mudancas para irem para sua linha do tempo 
+git commit  // adiciona um ponto da linha do tempo 
+git log     // visualiza os pontos na linha do tempo 
+git status  // informa o estado das alteracoes do nosso projeto
+git show    // apresenta determinado ponto na linha do tempo 

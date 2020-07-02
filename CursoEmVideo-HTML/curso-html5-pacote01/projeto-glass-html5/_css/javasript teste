@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+	<h1>acenda a lampada</h1>
+	<img src="_imagens/lampada-apagada.jpg">
+</body>
+</html>

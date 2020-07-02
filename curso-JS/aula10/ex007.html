@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div#area{
+            background: black;
+            font: normal 20pt Arial;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area" onclick="clicar()" onmouseover="entrar()" onmouseout="sair()">
+            interaja
+    </div>
+    <script>
+        //a.addeventlistener('click', clicar)
+        //a.addeventlistener('onmouseenter',entrar)
+        //a.addeventlistener('onmouseout', sair)
+        var a = document.getElementById('area')
+        function clicar(){
+            a.innerText='para'
+            a.style.background='red'
+        }
+        function entrar() {
+            a.innerText = 'sai'
+            a.style.background='black'
+        }
+        function sair() {
+            a.innerText='volta aqui'
+            a.style.background='blue'
+        }
+    </script>
+</body>
+</html>
