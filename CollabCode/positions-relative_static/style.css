@@ -1,0 +1,30 @@
+.elementExample {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    
+    color: white;
+
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+.elementExample_first {
+    background-color: purple;
+    
+    position: relative;
+    top: 200px;
+}
+
+.elementExample_second {
+    background-color: rgb(255, 115, 0);
+
+    position: relative;
+}
+
+.elementExample_isActive {
+    z-index: 1;
+}

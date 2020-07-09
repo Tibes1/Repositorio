@@ -1,0 +1,21 @@
+.elementExample {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+
+    font-size: 20px;
+
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+.elementExample_first {
+    background-color: purple;
+    float: left;
+}
+.elementExample_second {
+    background-color: orange;
+    float: right;
+}
+
+/*float pras o objeto para camada da frente*/

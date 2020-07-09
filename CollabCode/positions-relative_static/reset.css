@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+article {
+    background-color: violet;
+    overflow: hidden;
+}
+
+p {
+    clear: both;
+}
